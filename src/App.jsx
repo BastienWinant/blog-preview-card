@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <main>
+        <h1 className="sr-only">Blog Preview Card</h1>
         <BlogCard
           thumbnailImg={thumbnailImg}
           tags={['learning']}
