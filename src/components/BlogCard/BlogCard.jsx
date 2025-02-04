@@ -15,7 +15,9 @@ export default function BlogCard(props) {
             {tagElements}
           </div>
           <p className="blog-card-date">{date}</p>
-          <h2 className="blog-card-title">{title}</h2>
+          <a href='#' className="blog-card-link">
+            <h2 className="blog-card-title">{title}</h2>
+          </a>
         </hgroup>
         <p className="blog-card-abstract">
           {abstract}

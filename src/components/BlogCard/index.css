@@ -47,6 +47,16 @@
   font-size: .875rem;
 }
 
+.blog-card-link {
+  text-decoration: none;
+}
+
+.blog-card-link:hover,
+.blog-card-link:focus {
+  color: var(--primary);
+  outline: none;
+}
+
 .blog-card-title {
   font-size: 1.5rem;
   font-weight: 800;
