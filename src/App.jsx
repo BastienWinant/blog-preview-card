@@ -6,24 +6,22 @@ import avatarImg from './assets/images/image-avatar.webp'
 
 function App() {
   return (
-    <>
-      <main>
-        <h1 className="sr-only">Blog Preview Card</h1>
-        <BlogCard
-          thumbnailImg={thumbnailImg}
-          tags={['learning']}
-          date="21 Dec 2023"
-          title="HTML & CSS Foundations"
-          abstract="These languages are the backbone of every website, defining structure, content, and presentation."
-          avatarImg={avatarImg}
-          author="Greg Hooper"
-        />
-        <Footer>
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="https://github.com/BastienWinant" target='_blank'>Bastien Winant</a>.
-        </Footer>
-      </main>
-    </>
+    <main>
+      <h1 className="sr-only">Blog Preview Card</h1>
+      <BlogCard
+        thumbnailImg={thumbnailImg}
+        tags={['Learning', 'HTML', 'CSS']}
+        date="21 Dec 2023"
+        title="HTML & CSS Foundations"
+        abstract="These languages are the backbone of every website, defining structure, content, and presentation."
+        avatarImg={avatarImg}
+        author="Greg Hooper"
+      />
+      <Footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/BastienWinant" target='_blank'>Bastien Winant</a>.
+      </Footer>
+    </main>
   )
 }
 
