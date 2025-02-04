@@ -16,3 +16,9 @@ body {
   color: var(--gray-950);
   font-family: 'Figtree';
 }
+
+main {
+  min-height: 100vh;
+  padding: 3vw 1em 5em;
+  position: relative;
+}

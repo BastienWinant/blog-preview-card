@@ -1,0 +1,71 @@
+.blog-card {
+  max-width: 400px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 1.5em;
+
+  background-color: var(--white);
+  border-radius: 1.25em;
+  border: 1px solid var(--gray-950);
+  box-shadow: .5em .5em rgb(0, 0, 0);
+}
+
+.blog-card-img {
+  border-radius: .625em;
+}
+
+.blog-card-caption {
+  line-height: 1.5;
+  color: var(--gray-950);
+}
+
+.blog-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .75em;
+}
+
+
+.blog-card-tag {
+  font-weight: 800;
+  font-size: .875rem;
+  background-color: var(--primary);
+  padding: .28em .85em;
+  border-radius: .28em;
+}
+
+.blog-card-date {
+  font-size: .875rem;
+}
+
+.blog-card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.blog-card-abstract {
+  margin: .75em 0 1.5em;
+  color: var(--gray-500);
+}
+
+.blog-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .75em;
+}
+
+.blog-card-avatar {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+}
+
+.blog-card-author {
+  font-weight: 800;
+  font-size: .875rem;
+}
