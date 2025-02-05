@@ -11,9 +11,9 @@ export default function BlogCard(props) {
       <img src={thumbnailImg} alt="Blog article thumbnail." className="blog-card-img" />
       <figcaption className="blog-card-caption">
         <hgroup className="blog-card-header">
-          <div className="blog-card-tags">
+          <span className="blog-card-tags">
             {tagElements}
-          </div>
+          </span>
           <p className="blog-card-date">{date}</p>
           <a href='#' className="blog-card-link">
             <h2 className="blog-card-title">{title}</h2>
