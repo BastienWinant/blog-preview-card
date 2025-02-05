@@ -10,15 +10,15 @@ export default function BlogCard(props) {
     <figure className="blog-card">
       <img src={thumbnailImg} alt="Blog article thumbnail." className="blog-card-img" />
       <figcaption className="blog-card-caption">
-        <hgroup className="blog-card-header">
-          <span className="blog-card-tags">
+        <header className="blog-card-header">
+          <div className="blog-card-tags">
             {tagElements}
-          </span>
+          </div>
           <p className="blog-card-date">{date}</p>
           <a href='#' className="blog-card-link">
             <h2 className="blog-card-title">{title}</h2>
           </a>
-        </hgroup>
+        </header>
         <p className="blog-card-abstract">
           {abstract}
         </p>
